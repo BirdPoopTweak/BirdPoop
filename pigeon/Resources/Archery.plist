@@ -1,0 +1,42 @@
+{
+    items =
+    (
+        {
+            cell = PSGroupCell;
+            footerText = "Take as long as you need to line up the shot";
+        },
+        
+        {
+            cell = PSTableCell;
+            icon = "5.png";
+        },
+
+        {
+            cell = PSSwitchCell;
+            label = "Remove timer";
+            default = 1;
+            defaults = "com.ntwerk.birdpoop";
+            key = "archery_remove_timer";
+        },
+
+        {
+            cell = PSGroupCell;
+            footerText = "Just aim at the center to score a perfect 30 every time";
+        },
+        
+        {
+            cell = PSTableCell;
+            icon = "3.png";
+        },
+
+        {
+            cell = PSSwitchCell;
+            label = "Remove wind";
+            default = 1;
+            defaults = "com.ntwerk.birdpoop";
+            key = "archery_remove_wind";
+        }
+    );
+
+    title = "Archery";
+}

@@ -1,0 +1,51 @@
+{
+	items =
+	(
+		{
+			cell = PSGroupCell;
+			label = "Hacks";
+		},
+
+		{
+			cell = PSLinkCell;
+			label = "8 ball";
+			detail = PGNPoolController;
+		},
+
+		{
+			cell = PSLinkCell;
+			label = "Sea Battle";
+			detail = PGNBattleshipController;
+		},
+
+		{
+			cell = PSLinkCell;
+			label = "Basketball";
+			detail = PGNBasketballController;
+		},
+
+		{
+			cell = PSLinkCell;
+			label = "Archery";
+			detail = PGNArcheryController;
+		},
+
+		{
+			cell = PSGroupCell;
+			label = "Other";
+		},
+
+		{
+			cell = PSLinkCell;
+			label = "Spoof win count";
+			detail = PGNFakeWinController;
+		},
+		{
+			cell = PSLinkCell;
+			label = "Misc settings";
+			detail = PGNMiscController;
+		}
+	);
+
+	title = "Bird Poop";
+}

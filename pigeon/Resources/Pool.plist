@@ -1,0 +1,101 @@
+{
+    items =
+    (
+        {
+            cell = PSGroupCell;
+            footerText = "Settings will also apply to 9 ball and 8 ball+";
+        },
+
+        /*{
+            cell = PSGroupCell;
+            footerText = "Automatically unlock all pool cues";
+        },
+
+        {
+            cell = PSTableCell;
+            icon = "6.png";
+        },
+
+        {
+            cell = PSSwitchCell;
+            label = "Unlock all cues";
+            default = 1;
+            defaults = "com.ntwerk.birdpoop";
+            key = "pool_unlock_all";
+        },*/
+
+        {
+            cell = PSGroupCell;
+            footerText = "Extend the trajectory line on your shots";
+        },
+
+        {
+            cell = PSTableCell;
+            icon = "0.png";
+        },
+
+        {
+            cell = PSSwitchCell;
+            label = "Extended trajectory";
+            default = 1;
+            defaults = "com.ntwerk.birdpoop";
+            key = "pool_extended_trajectory";
+        },
+
+        {
+            cell = PSGroupCell;
+            footerText = "Show trajectory lines in hard mode";
+        },
+
+        {
+            cell = PSTableCell;
+            icon = "2.png";
+        },
+
+        {
+            cell = PSSwitchCell;
+            label = "Disable hard mode";
+            default = 1;
+            defaults = "com.ntwerk.birdpoop";
+            key = "pool_disable_hardmode";
+        },
+
+        {
+            cell = PSGroupCell;
+            footerText = "Show trajectory lines on any ball, not just your own";
+        },
+
+        {
+            cell = PSTableCell;
+            icon = "1.png";
+        },
+
+        {
+            cell = PSSwitchCell;
+            label = "Always show trajectory";
+            default = 1;
+            defaults = "com.ntwerk.birdpoop";
+            key = "pool_always_show_trajectory";
+        },
+
+        {
+            cell = PSGroupCell;
+            footerText = "You can always move the cue ball. Not recommended to use, suspicious and VERY weird looking on the other end";
+        },
+
+        {
+            cell = PSTableCell;
+            icon = "4.png";
+        },
+
+        {
+            cell = PSSwitchCell;
+            label = "Always move cue ball";
+            default = 0;
+            defaults = "com.ntwerk.birdpoop";
+            key = "pool_always_move_cue_ball";
+        },
+    );
+
+    title = "8 ball";
+}

@@ -1,0 +1,24 @@
+{
+    items =
+    (
+        {
+            cell = PSGroupCell;
+            footerText = "See all the enemy ships before you've hit them";
+        },
+        
+        {
+            cell = PSTableCell;
+            icon = "7.png";
+        },
+
+        {
+            cell = PSSwitchCell;
+            label = "See enemy ships";
+            default = 1;
+            defaults = "com.ntwerk.birdpoop";
+            key = "battleship_show_ships";
+        }
+    );
+
+    title = "Sea Battle";
+}

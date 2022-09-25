@@ -1,0 +1,45 @@
+{
+    items =
+    (
+        {
+            cell = PSGroupCell;
+            footerText = "Higher number = shots will miss more often";
+        },
+        
+        {
+            cell = PSTableCell;
+            icon = "9.png";
+        },
+
+        {
+            cell = PSSliderCell;
+            label = "Shot miss chance";
+            min = 0;
+            max = 100;
+            showValue = 1;
+            default = 5;
+            defaults = "com.ntwerk.birdpoop";
+            key = "basketball_miss_chance";
+        },
+
+        {
+            cell = PSGroupCell;
+            footerText = "Autotimer Interval in seconds (0.9 or higher is recommended as too many shots can overload the game's memory and be unable to send)";
+        },
+
+        {
+            cell = PSSliderCell;
+            label = "Autotimer interval";
+            min = 0.5;
+            max = 2.0;
+            isSegmented = true;
+            segmentCount = 15;
+            showValue = 1;
+            default = 1.0;
+            defaults = "com.ntwerk.birdpoop";
+            key = "basketball_auto_interval";
+        }
+    );
+
+    title = "Basketball";
+}

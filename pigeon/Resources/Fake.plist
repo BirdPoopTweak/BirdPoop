@@ -1,0 +1,199 @@
+{
+    items =
+    (
+        {
+            cell = PSGroupCell;
+            footerText = "Leave blank to disable spoofing for that game.";
+        },
+
+        {
+            cell = PSGroupCell;
+        },
+
+        {
+            cell = PSEditTextCell;
+            keyboard = "phone";
+            label = "8 Ball";
+            defaults = "com.ntwerk.birdpoop";
+            key = "pool";
+        },
+
+        {
+            cell = PSEditTextCell;
+            keyboard = "phone";
+            label = "Sea battle";
+            defaults = "com.ntwerk.birdpoop";
+            key = "sea";
+        },
+
+        {
+            cell = PSEditTextCell;
+            keyboard = "phone";
+            label = "Basketball";
+            defaults = "com.ntwerk.birdpoop";
+            key = "basketball";
+        },
+
+        {
+            cell = PSEditTextCell;
+            keyboard = "phone";
+            label = "Archery";
+            defaults = "com.ntwerk.birdpoop";
+            key = "archery";
+        },
+
+        {
+            cell = PSEditTextCell;
+            keyboard = "phone";
+            label = "Word games";
+            defaults = "com.ntwerk.birdpoop";
+            key = "wordgames";
+        },
+
+        {
+            cell = PSEditTextCell;
+            keyboard = "phone";
+            label = "Darts";
+            defaults = "com.ntwerk.birdpoop";
+            key = "darts";
+        },
+
+        {
+            cell = PSEditTextCell;
+            keyboard = "phone";
+            label = "Cup pong";
+            defaults = "com.ntwerk.birdpoop";
+            key = "beer";
+        },
+
+        {
+            cell = PSEditTextCell;
+            keyboard = "phone";
+            label = "Mini golf";
+            defaults = "com.ntwerk.birdpoop";
+            key = "golf";
+        },
+
+        {
+            cell = PSEditTextCell;
+            keyboard = "phone";
+            label = "Knockout";
+            defaults = "com.ntwerk.birdpoop";
+            key = "knock";
+        },
+
+        {
+            cell = PSEditTextCell;
+            keyboard = "phone";
+            label = "Crazy 8";
+            defaults = "com.ntwerk.birdpoop";
+            key = "crazy";
+        },
+
+        {
+            cell = PSEditTextCell;
+            keyboard = "phone";
+            label = "Four in a row";
+            defaults = "com.ntwerk.birdpoop";
+            key = "connect";
+        },
+
+        {
+            cell = PSEditTextCell;
+            keyboard = "phone";
+            label = "Paintball";
+            defaults = "com.ntwerk.birdpoop";
+            key = "paint";
+        },
+
+        {
+            cell = PSEditTextCell;
+            keyboard = "phone";
+            label = "Shuffleboard";
+            defaults = "com.ntwerk.birdpoop";
+            key = "shuffle";
+        },
+
+        {
+            cell = PSEditTextCell;
+            keyboard = "phone";
+            label = "Tanks";
+            defaults = "com.ntwerk.birdpoop";
+            key = "tanks";
+        },
+
+        {
+            cell = PSEditTextCell;
+            keyboard = "phone";
+            label = "Filler";
+            defaults = "com.ntwerk.birdpoop";
+            key = "fill";
+        },
+
+        {
+            cell = PSEditTextCell;
+            keyboard = "phone";
+            label = "Checkers";
+            defaults = "com.ntwerk.birdpoop";
+            key = "checkers";
+        },
+
+        {
+            cell = PSEditTextCell;
+            keyboard = "phone";
+            label = "Chess";
+            defaults = "com.ntwerk.birdpoop";
+            key = "chess";
+        },
+
+        {
+            cell = PSEditTextCell;
+            keyboard = "phone";
+            label = "Mancala";
+            defaults = "com.ntwerk.birdpoop";
+            key = "mancala";
+        },
+
+        {
+            cell = PSEditTextCell;
+            keyboard = "phone";
+            label = "Dots & boxes";
+            defaults = "com.ntwerk.birdpoop";
+            key = "dots";
+        },
+
+        {
+            cell = PSEditTextCell;
+            keyboard = "phone";
+            label = "Gomoku";
+            defaults = "com.ntwerk.birdpoop";
+            key = "renju";
+        },
+
+        {
+            cell = PSEditTextCell;
+            keyboard = "phone";
+            label = "Reversi";
+            defaults = "com.ntwerk.birdpoop";
+            key = "reversi";
+        },
+
+        {
+            cell = PSEditTextCell;
+            keyboard = "phone";
+            label = "9 ball";
+            defaults = "com.ntwerk.birdpoop";
+            key = "pool2";
+        },
+
+        {
+            cell = PSEditTextCell;
+            keyboard = "phone";
+            label = "20 questions";
+            defaults = "com.ntwerk.birdpoop";
+            key = "questions";
+        },
+    );
+
+    title = "Spoof wins";
+}

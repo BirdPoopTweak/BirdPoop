@@ -1,0 +1,61 @@
+{
+    items =
+    (
+        {
+            cell = PSGroupCell;
+            footerText = "Top: Without antialiasing, Below: With 4x antialiasing";
+        },
+        
+        {
+            cell = PSTableCell;
+            icon = "10.png";
+        },
+        {
+            cell = PSTableCell;
+            icon = "11.png";
+        },
+
+        {
+            cell = PSGroupCell;
+            footerText = "Enable antialiasing (can have minor performance impact but improves visual quality)";
+        },
+
+
+        {
+            cell = PSSegmentCell;
+            default = 0;
+            defaults = "com.ntwerk.birdpoop";
+            key = "AntialiasingMode";
+            validValues = (
+                0,
+                1,
+                2
+            );
+            validTitles = (
+                "None",
+                "2X",
+                "4X"
+            );
+        },
+
+        {
+            cell = PSGroupCell;
+            footerText = "Force enable FPS view (only works on 3D games)";
+        },
+        
+        {
+            cell = PSTableCell;
+            icon = "12.png";
+        },
+
+        {
+            cell = PSSwitchCell;
+            label = "Enable FPS Stats";
+            default = 0;
+            defaults = "com.ntwerk.birdpoop";
+            key = "ShowsFPSEnabled";
+        }
+    );
+
+    title = "Misc Settings";
+}

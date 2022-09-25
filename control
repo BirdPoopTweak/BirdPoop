@@ -1,0 +1,9 @@
+Package: com.ntwerk.birdpoop
+Name: Bird Poop
+Depends: mobilesubstrate
+Version: 1.2~beta1
+Architecture: iphoneos-arm
+Description: Destroy any player in any GamePigeon game!
+Maintainer: ThePenisMan
+Author: ThePenisMan
+Section: Tweaks
